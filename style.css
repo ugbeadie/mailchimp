@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body: #241c15;
+  --section: #d8eacc;
+  --button: #ffe01b;
+  --footer: #e7b75f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  font-weight: 400;
+  font-size: 3.6vw;
+}
+
+p {
+  font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana,
+    sans-serif;
+}
