@@ -22,7 +22,12 @@ h6 {
   font-size: 3.6vw;
 }
 
-p {
+p,
+li {
   font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana,
     sans-serif;
+}
+
+nav {
+  background-color: #e7b75f;
 }
