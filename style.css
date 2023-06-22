@@ -29,5 +29,23 @@ li {
 }
 
 nav {
+  padding: 0 20px;
+}
+
+nav,
+nav .left ul,
+nav .right {
   background-color: #e7b75f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .left ul li {
+  list-style: none;
+}
+
+nav .left ul li a {
+  text-decoration: none;
+  color: var(--body);
 }
