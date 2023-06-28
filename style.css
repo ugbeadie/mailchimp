@@ -106,3 +106,25 @@ nav .left ul li a {
 .right button:nth-child(2) {
   background-color: var(--button);
 }
+
+#hero,
+.hero_text,
+.hero_img {
+  width: 100%;
+}
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--section);
+  padding: 30px 60px;
+}
+
+#hero p {
+  font-size: 12px;
+}
+
+#hero h3 {
+  line-height: 0.9;
+}
